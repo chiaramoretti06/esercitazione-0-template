@@ -45,6 +45,11 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 ## Step 2 — Eco: prima prova
 
 Argomenti passati, comando e risultato:
+int intero = atoi(argv[2]);
+    double reale = atof(argv[3]);
+    printf("%s %d %f\n", testo, intero, reale);
+
+abbiamo rimosso nel void (testo), compilazione senza problemi e ha stampato "ciao 12 3.500000".
 
 Che cosa posso concludere:
 
