@@ -40,7 +40,7 @@ Abbiamo incluso solo hello.c e osservazioni.md perche' l'eseguibile (hello) puo'
 
 Come ho verificato che la versione provata sia presente su GitHub:con git log --oneline abbiamo letto l'identificativo dell'ultimo commit locale. Su GitHub,  nella pagina dei repository abbiamo aperto la cronologia dei commit e controllato che ;l'ultimo avesse lo stesso identificativo e messaggio. Abbiamo aperto aperto hello.c su GitHub e controllato contenesse il printf corretto. Per ultimo, abbiamo fatto git status per vedere se ci fossero commit locali non ancora inviati. 
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:aprendo osservazioni.md sul computer la frase non c'era, il commit presente su github era solo su repository remoto. Con git pull abbiamo scaricato i nuovi commit e ora aprendo il file le modifiche c'erano. Git clone non serviva perche' crea da zero una nuova copia di repository e sarebbe inutile, a noi basta aggiungere le modifiche apportate su github.
 
 ## Step 2 — Eco: prima prova
 
